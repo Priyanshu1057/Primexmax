@@ -95,10 +95,9 @@ async def start_command(client: Client, message: Message):
                 await asyncio.sleep(2)
                 
                 try:
-            await sticker_msg.delete()
-        except Exception as e:
-            print(f"Failed to delete sticker: {e}")
-        
+                    await sticker_msg.delete()
+                except Exception as e:
+                    print(f"Failed to delete sticker: {e}")
                 
                 link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API, f'https://telegram.dog/{client.username}?start=verify_{token}')
                 btn = [
