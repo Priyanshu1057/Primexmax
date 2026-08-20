@@ -19,7 +19,7 @@ API_ID = "23685822"
 API_HASH = "ff0572e13ff2f63a50f6dc707e0c4c9f"
 WORKERS = 5
 
-DB_URI = "mongodb+srv://majla_db_user:k4ojoeZuvQZdJnBE@cluster0.d96bpjz.mongodb.net/?appName=Cluster0"
+DB_URI = ""
 DB_NAME = "Cluster0"
 
 FSUBS = [[-1001610198839, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
